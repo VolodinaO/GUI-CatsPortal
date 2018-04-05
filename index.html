@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<title>Black Cat</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+    <div class="w3-container">
+        <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+            <i class="fa fa-remove"></i>
+        </a>
+        <h4><b>BLACK CAT</b></h4>
+        <p class="w3-text-grey">Menu</p>
+    </div>
+    <div class="w3-bar-block">
+        <a href="#catalog" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>КАТАЛОГ</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>О НАС</a>
+        <a href="#partners" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ПАРТНЕРЫ</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>КОНТАКТЫ</a>
+        <a href="#callback" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>ОБРАТНАЯ СВЯЗЬ</a>
+
+    </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+    <!-- Header -->
+    <header id="catalog">
+        <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+        <div class="w3-container">
+            <h1><img src="img/black_cat.jpg" style="width:10%;" class="w3-round">
+            Приют для котов «Black Cat»</h1>
+            <div class="w3-section w3-bottombar w3-padding-16">
+                <button class="w3-button w3-white"><i class="fa fa-rss" aria-hidden="true"></i> Подписаться на RSS</button>
+                <button class="w3-button w3-white"><i class="fa fa-sign-in" aria-hidden="true"></i> Вход</button>
+                <button class="w3-button w3-white"><i class="fa fa-id-card" aria-hidden="true"></i> Регистрация</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- First Photo Grid-->
+    <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+            <img src="img/1.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+
+                <p><script type="text/javascript">
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="fb-like" data-href="http://www.4siteconsulting.co.uk/case-study-0.html" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+
+                <p><b>Куся</b></p>
+                <p>Взрослая кошка-красавица, умная, ласковая и чуткая. Дружит со всем живым. На временной передержке.</p>
+                <p>Порода: Турецкая ангора.</p>
+                <p>Возраст: 7 лет.</p>
+                <p>Окрас: Бело-серый.</p>
+            </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+            <img src="img/2.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+
+                <p><script type="text/javascript">
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="fb-like" data-href="http://www.4siteconsulting.co.uk/case-study-1.html" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+
+                <p><b>Маркиз</b></p>
+                <p>Прекрасный, уютный, достойный Кот! Очень ласковый, в приюте ему не хватает общения с человеком.</p>
+                <p>Порода: Корат.</p>
+                <p>Возраст: 3 года.</p>
+                <p>Окрас: Черный с белой грудкой.</p>
+            </div>
+        </div>
+        <div class="w3-third w3-container">
+            <img src="img/3.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+
+                <p><script type="text/javascript">
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="fb-like" data-href="http://www.4siteconsulting.co.uk/case-study-02.html" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+
+                <p><b>Милли</b></p>
+                <p>Королева красоты! И с королевским воспитанием. Ищет достойную семью. На временной передержке.</p>
+                <p>Порода: Турецкая ангора.</p>
+                <p>Возраст: 3 года.</p>
+                <p>Окрас: Белый.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Photo Grid-->
+    <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+            <img src="img/4.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+
+                <p><script type="text/javascript">
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="fb-like" data-href="http://www.4siteconsulting.co.uk/case-study-3.html" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+
+                <p><b>Джери</b></p>
+                <p>Дружелюбный с собаками, людьми, другими котиками! Очень ласковый. Живет на временной передержке.</p>
+                <p>Порода: Тойгер.</p>
+                <p>Возраст: 8 мес.</p>
+                <p>Окрас: Серый в черную полоску.</p>
+            </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+            <img src="img/5.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+
+                <p><script type="text/javascript">
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="fb-like" data-href="http://www.4siteconsulting.co.uk/case-study-4.html" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+
+                <p><b>Абрикос</b></p>
+                <p>Шикарный котик-подросток, любящий. Из-за обморожения пришлось удалить хвост. На временной передержке.</p>
+                <p>Порода: Турецкий ван.</p>
+                <p>Возраст: 8 мес.</p>
+                <p>Окрас: Бело-рыжий.</p>
+            </div>
+        </div>
+        <div class="w3-third w3-container">
+            <img src="img/6.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+
+                <p><script type="text/javascript">
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="fb-like" data-href="http://www.4siteconsulting.co.uk/case-study-05.html" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+
+                <p><b>Василиса</b></p>
+                <p>Молодая, очень милая и уютная. Трехцветная кошка в доме - к счастью! На временной передержке.</p>
+                <p>Порода: Тойгер.</p>
+                <p>Возраст: 1 год.</p>
+                <p>Окрас: белый, коричневый, черный.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Third Photo Grid-->
+    <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+            <img src="img/7.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+
+                <p><script type="text/javascript">
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="fb-like" data-href="http://www.4siteconsulting.co.uk/case-study-6.html" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+
+                <p><b>Хани</b></p>
+                <p>Немного скромная, но ласковая и игривая молодая кошка. На временной передержке. Стерилизована.</p>
+                <p>Порода: Корат.</p>
+                <p>Возраст: 1,5 года.</p>
+                <p>Окрас: Черный, с белой грудкой.</p>
+            </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+            <img src="img/8.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+
+                <p><script type="text/javascript">
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="fb-like" data-href="http://www.4siteconsulting.co.uk/case-study-7.html" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+
+                <p><b>Персиваль</b></p>
+                <p>Идеален. Но хозяева решили его усыпить. Спасен живет в приюте, ждет любящую семью. </p>
+                <p>Порода: Турецкий ван.</p>
+                <p>Возраст: 2 года.</p>
+                <p>Окрас: Бело-серо-коричневый.</p>
+            </div>
+        </div>
+        <div class="w3-third w3-container">
+            <img src="img/9.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+
+                <p><script type="text/javascript">
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="fb-like" data-href="http://www.4siteconsulting.co.uk/case-study-8.html" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+
+                <p><b>Веснушка</b></p>
+                <p>Кошка, приносящая солнечную радость даже в самые серые будни :). На передержке. Приучена к лотку.</p>
+                <p>Порода: Турецкий ван.</p>
+                <p>Возраст: 1,5 года.</p>
+                <p>Окрас: Бело-черный.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="w3-center w3-padding-32">
+        <div class="w3-bar">
+            <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+            <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+        </div>
+    </div>
+
+    <div class="w3-row-padding w3-padding-16">
+        <h4 id="about"><b>О нас</b></h4>
+            <p>Приют Black Cat - это муниципальный приют для бездомных собак и кошек в г. Самара. В нем проживает почти 150 кошек. Большие и маленькие, пушистые и гладкие, веселые и задумчивые - и на всех одна большая мечта - встретить своего Человека и найти Дом.</p>
+            <p>Если вы хотите взять кошку, не ищите питомник, в котором можно купить котенка - просто свяжитесь с нами, и вы обязательно найдете себе самого лучшего друга. Во всем мире это уже стало доброй традицией - человек, который решил завести питомца, обращается в приют, чтобы подарить заботу и любовь тому, кто уже появился на свет, но ему почему-то досталась нелегкая судьба. Мы поможем вам выбрать животное с учетом ваших пожеланий и предпочтений, с радостью познакомим со всеми нашими собаками и кошками. Все наши питомцы привиты и стерилизованы.</p>
+    </div>
+    <div class="w3-row-padding w3-padding-16">
+            <h4 id="partners"><b>Партнеры</b></h4>
+            <p>Нашим питомцам нужна ваша помощь! Вы можете сделать их жизнь лучше. Приюту Black Cat всегда требуются корма, поводки и ошейники, лекарства, материальная и информационная поддержка. А еще нашим кошкам очень нужна ласка и общение с человеком, поэтому мы всегда рады новым волонтерам.</p>
+            <h4><b>Нам уже помогают:</b></h4>
+            <p>Клиника ветеренарной медицины «Альтернатива»</p>
+            <p>Зоомагазин «Зоомаркет»</p>
+
+
+    </div>
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-large w3-grey">
+        <h4 id="contact"><b>Контакты</b></h4>
+        <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+            <div class="w3-third w3-dark-grey">
+                <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                <p>blackcat@email.com</p>
+            </div>
+            <div class="w3-third w3-teal">
+                <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+                <p>Самара, Московское шоссе 35</p>
+            </div>
+            <div class="w3-third w3-dark-grey">
+                <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+                <p>+7(846)337-13-13</p>
+            </div>
+        </div>
+        <!--<hr id="callback" class="w3-opacity">-->
+        <h3 id="callback" class="w3-opacity"><b>Обратная связь</b></h3>
+        <form action="/action_page.php" target="_blank">
+            <div class="w3-section">
+                <label>Name</label>
+                <input class="w3-input w3-border" type="text" name="Name" required>
+            </div>
+            <div class="w3-section">
+                <label>Email</label>
+                <input class="w3-input w3-border" type="text" name="Email" required>
+            </div>
+            <div class="w3-section">
+                <label>Message</label>
+                <input class="w3-input w3-border" type="text" name="Message" required>
+            </div>
+            <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Отправить сообщение</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-dark-grey">
+        <div class="w3-row-padding">
+            <div class="w3-third">
+                <h3><a href="#contact" title="Контакты" class="w3-hover-opacity">Контакты</a></h3>
+            </div>
+
+            <div class="w3-third">
+                <h3><h3><a href="#callback" title="Обратная связь" class="w3-hover-opacity">Обратная связь</a></h3></h3>
+            </div>
+
+            <div class="w3-third">
+                <h3><a href="#partners" title="Партнеры" class="w3-hover-opacity">Партнеры</a></h3>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="w3-black w3-center w3-padding-24">Copyright © 2017 Black Cat</div>
+
+    <!-- End page content -->
+</div>
+
+<script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+</script>
+
+</body>
+</html>
